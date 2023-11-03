@@ -1,0 +1,20 @@
+:root {
+
+}
+
+.hero {
+    background-image: url("/images/02-hero-bg.jpg");
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+#profpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 50%;
+}
