@@ -13,7 +13,7 @@
 
 <body>
 
-  <!--MY NAV. Still working on toggle-->
+  <!--MY NAV-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" aria-disabled="true">Clive's Portfolio</a>
@@ -96,7 +96,7 @@
 
     <section>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row d-flex justify-content-around">
 
           <!-- Skills -->
           <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
@@ -153,7 +153,7 @@
           </div>
 
           <!-- About Me -->
-          <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+          <div class="cardContainer  col-lg-6 col-md-6 col-sm-12">
             <h2 class="sectionHeading" id="about-me">About Me</h2>
             <div class="card text-white bg-secondary mb-3 card" style="max-width: 18rem;">
               <div class="card-body">
@@ -162,14 +162,35 @@
                 </p>
               </div>
             </div>
-
-
           </div>
         </div>
     </section>
   </main>
 
-  <footer></footer>
+  <footer>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" aria-disabled="true">Clive's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#my-projects">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#my-skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
